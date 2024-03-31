@@ -35,10 +35,5 @@ describe('template spec', () => {
     cy.get('[name=password]').type('123123')
     cy.get('.btn-primary').contains('Login').click();
   })
-  
-  // it("Let Search some product",()=>{
-  //   cy.get('[name=search]').type('phone')
-  //   cy.get('[type=submit]').contains('Search').click();    
-  // })
 
 })
